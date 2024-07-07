@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 400; */
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none!important;
+}
+
+:root {
+    --color-primary: #0b2711c4;
+    --color-secondary: #030c05c4;
+    --color-bg: #e4e4e4;
+    --color-success: #28a745;
+  }
+
+body {
+    background-color: var(--color-bg);
+}
+
+header {
+    background-color: var(--color-primary);
+}
+header a {
+    font-size: 18px!important;
+
+}
+
+header span {
+    text-transform: capitalize!important;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.badge-success {
+    background-color: var(--color-success);
+}
+
+.badge-danger {
+    background-color: #dc3545;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+}
+
+header img {
+    height: 50px;
+}
+
+.th-bg {
+    background-color: var(--color-primary);
+    color: #ffffff;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Hero styles */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-blend-mode: overlay;
+    color: var(--color-secondary);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn-primary,
+ .btn-primary {
+    font-size: 18px;
+    padding: 6px 20px;
+    background-color: var(--color-primary)!important;
+    border: none!important;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-warning {
+    color: orange;
+}
+.status-bad {
+    color: red;
+}
+
+        /* Flexbox container */
+        .chart-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        /* Adjust canvas size */
+        canvas {
+            max-width: 500px;
+            /* Adjust as per your layout */
+            margin: 20px;
+            display: block;
+        }
